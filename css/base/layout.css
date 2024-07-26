@@ -9,9 +9,47 @@
     display: flex;
     flex-wrap: wrap;
 }
-.container > .row > .col {
-    width: 100%;
+.container > .row > [class*='col-'] {
+    padding: 0 1rem;
+    outline: 1px solid red;
 }
+.container > .row > .col-12 {
+    width: 100%;  
+}
+.container > .row > .col-11 {
+    width: calc(100% / 12 * 11);
+}
+.container > .row > .col-10 {
+    width: calc(100% / 12 * 10);
+}
+.container > .row > .col-9 {
+    width: 75%;
+}
+.container > .row > .col-8 {
+    width: calc(100% / 12 * 8);
+}
+.container > .row > .col-7 {
+    width: calc(100% / 12 * 7);
+}
+.container > .row > .col-6 {
+    width: 50%;
+}
+.container > .row > .col-5 {
+    width: calc(100% / 12 * 5);
+}
+.container > .row > .col-4 {
+    width: calc(100% / 12 * 4);
+}
+.container > .row > .col-3 {
+    width: 25%; 
+}
+.container > .row > .col-2 {
+    width: calc(100% / 12 * 2);
+}
+.container > .row > .col-1 {
+    width: calc(100% / 12);
+}
+
 @media (min-width: 36rem) {
     .container>.row {
         width: 30rem;

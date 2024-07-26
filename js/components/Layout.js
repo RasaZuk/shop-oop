@@ -26,16 +26,20 @@ export class Layout {
         const HTML = `
         <main class="container">
             <section class="row">
-                <div class="col">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nobis asperiores facilis autem necessitatibus cupiditate eos, deserunt ut et quam assumenda recusandae veritatis minima.</div>
+            <h1 class="col-12 main-title">Pirmas posukis</h1>
             </section>
             <section class="row">
-                <div class="col">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nobis asperiores facilis autem necessitatibus cupiditate eos, deserunt ut et quam assumenda recusandae veritatis minima.</div>
-                <div class="col">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nobis asperiores facilis autem necessitatibus cupiditate eos, deserunt ut et quam assumenda recusandae veritatis minima.</div>
+                <div class="col-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nobis asperiores facilis autem necessitatibus cupiditate.</div>
             </section>
             <section class="row">
-                <div class="col">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nobis asperiores facilis autem necessitatibus cupiditate eos, deserunt ut et quam assumenda recusandae veritatis minima.</div>
-                <div class="col">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nobis asperiores facilis autem necessitatibus cupiditate eos, deserunt ut et quam assumenda recusandae veritatis minima.</div>
-                <div class="col">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nobis asperiores facilis autem necessitatibus cupiditate eos, deserunt ut et quam assumenda recusandae veritatis minima.</div>
+                <div class="col-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nobis asperiores facilis autem necessitatibus cupiditate.</div>
+                <div class="col-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nobis asperiores facilis autem necessitatibus cupiditate.</div>
+            </section>
+            <section class="row">
+                <div class="col-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nobis asperiores facilis autem necessitatibus cupiditate.</div>
+                <div class="col-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nobis asperiores facilis autem necessitatibus cupiditate.</div>
+                <div class="col-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nobis asperiores facilis autem necessitatibus cupiditate.</div>
+                <div class="col-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nobis asperiores facilis autem necessitatibus cupiditate.</div>
             </section>
         </main>`;
         return HTML;
