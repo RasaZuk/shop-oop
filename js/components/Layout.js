@@ -1,19 +1,48 @@
 export class Layout {
-    constructor() { }
+    constructor() {
+        this.render();
+    }
 
 
     header() {
-        const HTML = `<header>HEADER</header>`;
+        const HTML = `
+        <header class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="#" alt="Logo">
+                    <nav>
+                        <a href="./">Home</a>
+                        <a href="./services">Services</a>
+                        <a href="./team">Team</a>
+                        <a href="./contact-us">Contact us</a>
+                    </nav> 
+                </div>
+            </div>    
+        </header>`;
         return HTML;
     }
 
     main() {
-        const HTML = `<main>MAIN</main>`;
+        const HTML = `
+        <main class="container">
+            <section class="row">
+                <div class="col">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nobis asperiores facilis autem necessitatibus cupiditate eos, deserunt ut et quam assumenda recusandae veritatis minima.</div>
+            </section>
+            <section class="row">
+                <div class="col">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nobis asperiores facilis autem necessitatibus cupiditate eos, deserunt ut et quam assumenda recusandae veritatis minima.</div>
+                <div class="col">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nobis asperiores facilis autem necessitatibus cupiditate eos, deserunt ut et quam assumenda recusandae veritatis minima.</div>
+            </section>
+            <section class="row">
+                <div class="col">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nobis asperiores facilis autem necessitatibus cupiditate eos, deserunt ut et quam assumenda recusandae veritatis minima.</div>
+                <div class="col">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nobis asperiores facilis autem necessitatibus cupiditate eos, deserunt ut et quam assumenda recusandae veritatis minima.</div>
+                <div class="col">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nobis asperiores facilis autem necessitatibus cupiditate eos, deserunt ut et quam assumenda recusandae veritatis minima.</div>
+            </section>
+        </main>`;
         return HTML;
     }
 
     footer() {
-        const HTML = `<footer>FOOTER</footer>`;
+        const HTML = `<footer class="container">&copy; Copyright 2024</footer>`;
         return HTML;
     }
 
