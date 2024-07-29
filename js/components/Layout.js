@@ -28,18 +28,18 @@ export class Layout {
             <section class="row">
             <h1 class="col-12 main-title">Pirmas posukis</h1>
             </section>
+               
             <section class="row">
-                <div class="col-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nobis asperiores facilis autem necessitatibus cupiditate.</div>
+                <div class="col-10 col-sm-8">TarpasA</div>
+                <div class="col-1 m-1 m-sm-3">TarpasB</div>
             </section>
             <section class="row">
-                <div class="col-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nobis asperiores facilis autem necessitatibus cupiditate.</div>
-                <div class="col-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nobis asperiores facilis autem necessitatibus cupiditate.</div>
-            </section>
-            <section class="row">
-                <div class="col-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nobis asperiores facilis autem necessitatibus cupiditate.</div>
-                <div class="col-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nobis asperiores facilis autem necessitatibus cupiditate.</div>
-                <div class="col-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nobis asperiores facilis autem necessitatibus cupiditate.</div>
-                <div class="col-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nobis asperiores facilis autem necessitatibus cupiditate.</div>
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3 col-xxl-12">Pirmas posukis</div>
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">Pirmas posukis</div>
+                <div class="col-6 col-lg-4 col-xl-3">Antras posukis</div>
+                <div class="col-6 col-lg-4 col-xl-3">Antras posukis</div>
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3 col-xxl-1">Trecias posukis</div>
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3 col-xxl-2">Trecias posukis.</div>
             </section>
         </main>`;
         return HTML;
