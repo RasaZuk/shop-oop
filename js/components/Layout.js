@@ -8,9 +8,9 @@ export class Layout {
         const HTML = `
         <header class="container">
             <div class="row">
-                <div class="col">
+                <div class="col-12">
                     <img src="#" alt="Logo">
-                    <nav>
+                    <nav style="display:inline-block;" class="hidden visible-sm">
                         <a href="./">Home</a>
                         <a href="./services">Services</a>
                         <a href="./team">Team</a>
